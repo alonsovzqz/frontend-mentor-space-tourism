@@ -32,7 +32,9 @@ Users should be able to:
 
 ### Links
 
- - Work in progress
+ - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/space-tourism-mobilefirst-solution-using-css-grid-and-flexbox-Tpxgccfine)
+ - Live Site URL: [Vercel](https://frontend-mentor-space-tourism-gray.vercel.app/)
+ - Repo URL: [Github](https://github.com/alonsovzqz/frontend-mentor-space-tourism)
 
 ## My process
 
@@ -58,6 +60,8 @@ Users should be able to:
 - Adding accessibility attributes and HTML5 markup will never conflict with CSS styles or JavaScript. Therefore, every website should be designed to work with accessibility tools.
 
 - Just let me add it again: **Always add accesibility attributes and semantic HTML5 markup**
+
+- Now I now a little bit more about how CSS Grid works. I always been working with Flexbox but now that I know CSS Grid and make them work together are a powerful tool for layout and styling pages.
 
 
 ### Continued development
