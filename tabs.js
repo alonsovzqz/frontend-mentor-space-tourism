@@ -38,7 +38,7 @@ function changeTabPanel(e) {
   const targetImage = targetTab.getAttribute("data-image");
 
   const tabContainer = targetTab.parentNode;
-  const mainContainer = tabContainer.parentNode;
+  const mainContainer = document.getElementById("main");
 
   tabContainer
     .querySelector('[aria-selected="true"]')
@@ -48,11 +48,9 @@ function changeTabPanel(e) {
 
   hideContent(mainContainer, '[role="tabpanel"]');
   showContent(mainContainer, [`#${targetPanel}`]);
-  //   mainContainer.querySelector([`#${targetPanel}`]).removeAttribute("hidden");
 
   hideContent(mainContainer, "picture");
   showContent(mainContainer, [`#${targetImage}`]);
-  //   mainContainer.querySelector([`#${targetImage}`]).removeAttribute("hidden");
 }
 
 function hideContent(parent, content) {
