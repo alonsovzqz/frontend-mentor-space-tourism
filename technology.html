@@ -24,6 +24,7 @@
     <script src="navigation.js" defer></script>
     <script src="tabs.js" defer></script>
   </head>
+
   <body class="technology">
     <a class="skip-to-content" href="#main">Skip to content</a>
     <header class="primary-header flex">
@@ -76,7 +77,9 @@
     </header>
 
     <main id="main" class="grid-container grid-container--technology flow">
-      <h1 class="numbered-title"><span>03</span> Space launch 101</h1>
+      <h1 class="numbered-title">
+        <span aria-hidden="true">03</span> Space launch 101
+      </h1>
 
       <section class="flow">
         <div
@@ -206,6 +209,7 @@
           alt="launch vehicle"
         />
       </picture>
+
       <picture hidden id="spaceport-image">
         <source
           srcset="assets/technology/image-spaceport-portrait.jpg"
@@ -221,6 +225,7 @@
           alt="spaceport"
         />
       </picture>
+
       <picture hidden id="capsule-image">
         <source
           srcset="assets/technology/image-space-capsule-portrait.jpg"

@@ -36,14 +36,14 @@ function changeTabPanel(e) {
   const targetTab = e.target;
   const targetPanel = targetTab.getAttribute("aria-controls");
   const targetImage = targetTab.getAttribute("data-image");
-
+  
   const tabContainer = targetTab.parentNode;
-  const mainContainer = document.getElementById("main");
-
+  const mainContainer = document.getElementById('main');
+  
   tabContainer
-    .querySelector('[aria-selected="true"]')
-    .setAttribute("aria-selected", false);
-
+  .querySelector('[aria-selected="true"]')
+  .setAttribute("aria-selected", false);
+  
   targetTab.setAttribute("aria-selected", true);
 
   hideContent(mainContainer, '[role="tabpanel"]');

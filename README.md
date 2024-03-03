@@ -14,6 +14,7 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -78,3 +79,5 @@ I'd like to use all this knowledge to create a design system using tools like [S
 - Website - [Alonso Vazquez](https://github.com/alonsovzqz)
 - Frontend Mentor - [@alonsovzqz](https://www.frontendmentor.io/profile/alonsovzqz)
 
+## Acknowledgments
+- [Arteque](https://www.frontendmentor.io/profile/Arteque)
